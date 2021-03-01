@@ -5,7 +5,7 @@ url: "https://glavos.github.io"
 lang: ru-RU
 logo: /assets/img/logo.svg
 permalink: /:title/
-disqus_shortname: glavos
+# disqus_shortname: glavos
 
 # Aux links for the upper right navigation
 aux_links:
