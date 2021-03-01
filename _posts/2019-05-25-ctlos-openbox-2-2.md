@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Релиз Ctlos Linux — Openbox,i3 v2.2
+title: Релиз Glavos Linux — Openbox,i3 v2.2
 type: minor
 ---
 
@@ -16,4 +16,4 @@ type: minor
 - gnome-disk-utility
 - grub-customizer
 
-Полный список пакетов: [packages.both](https://github.com/ctlos/ctlosiso/blob/f230853a492f1c2de4f951f24b99e90ef6ffc7e3/packages.both){:target="_blank"}.
+Полный список пакетов: [packages.both](https://github.com/glavos/glavosiso/blob/f230853a492f1c2de4f951f24b99e90ef6ffc7e3/packages.both){:target="_blank"}.

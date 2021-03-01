@@ -35,7 +35,7 @@ sudo systemctl enable sshd
 ### Генерация ключей
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "ctlos@protonmail.com"
+ssh-keygen -t rsa -b 4096 -C "glavos@protonmail.com"
 ```
 
 Ключи упадут в `~/.ssh`.

@@ -33,7 +33,7 @@ type: patch
 - исправленные баги и рефакторинг
 -
 
-Полный список пакетов: [packages.both](https://github.com/ctlos/ctlosiso/blob/xfce/packages.both).
+Полный список пакетов: [packages.both](https://github.com/glavos/glavosiso/blob/xfce/packages.both).
 
 
 

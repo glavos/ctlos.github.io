@@ -13,7 +13,7 @@ menus:
 1. TOC
 {:toc}
 
-Некоторые решенные проблемы описаны на форуме [forum.ctlos.ru](https://forum.ctlos.ru/viewforum.php?id=4).
+Некоторые решенные проблемы описаны на форуме [forum.glavos.ru](https://forum.glavos.ru/viewforum.php?id=4).
 
 ## Размер tmp
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Установка Ctlos Linux
+title: Установка Glavos Linux
 menus:
   install:
     title: Установка
@@ -19,7 +19,7 @@ post_video: dOn_rHMZGxY
 
 ## Запись ISO
 
-Для записи образа на USB накопитель потребуется установочный ISO образ, который можно скачать по ссылке [Скачать Ctlos Linux](/get).
+Для записи образа на USB накопитель потребуется установочный ISO образ, который можно скачать по ссылке [Скачать Glavos Linux](/get).
 
 > Перед началом записи образа, отформатируйте USB накопитель в FAT32, например, используя gparted. Проверьте контрольные суммы.
 
@@ -36,13 +36,13 @@ post_video: dOn_rHMZGxY
 Проверка MD5.
 
 ```bash
-md5sum ctlos_xfce_1.0.0_20181102.iso
+md5sum glavos_xfce_1.0.0_20181102.iso
 ```
 
 Проверка SHA256.
 
 ```bash
-sha256sum ctlos_xfce_1.0.0_20181102.iso
+sha256sum glavos_xfce_1.0.0_20181102.iso
 ```
 
 GPG.
@@ -55,7 +55,7 @@ sudo pacman -S gnupg
 
 ```bash
 gpg --keyserver keys.gnupg.net --recv-keys 98F76D97B786E6A3
-gpg --verify ctlos_xfce_1.0.0_20181102.iso.sig ctlos_xfce_1.0.0_20181102.iso
+gpg --verify glavos_xfce_1.0.0_20181102.iso.sig glavos_xfce_1.0.0_20181102.iso
 ```
 
 Подробнее о [GnuPG](/wiki/other/gnupg).
@@ -73,7 +73,7 @@ sudo mkfs.vfat /dev/sdX -I
 Далее записываем скачанный ранее образ используя утилиту **dd**.
 
 ```bash
-sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync
+sudo dd bs=4M if=glavos.iso of=/dev/sdX status=progress && sync
 ```
 
 Кросплатформенные инструменты для записи образов (Linux, Windows).
@@ -93,44 +93,44 @@ sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync
 - Online: открывается раздел выбора других окружений и доп. программ, обязательно требуется включенный интернет.
 - Offline: произойдет установка того, что вы видите в текущий момент, простая распаковка, интернет не нужен.
 
-![Ctlos step 1](/wiki/images/install/install-ctlos/1.png)
+![Glavos step 1](/wiki/images/install/install-glavos/1.png)
 
 На следующем шаге Вам требуется указать Ваше примерное местоположение для установки и выбора временной зоны.
 
-![Ctlos step 2](/wiki/images/install/install-ctlos/2.png)
+![Glavos step 2](/wiki/images/install/install-glavos/2.png)
 
 > Раскладка **ru,us** по **alt+shift**.
 
-![Ctlos step 3](/wiki/images/install/install-ctlos/3.png)
+![Glavos step 3](/wiki/images/install/install-glavos/3.png)
 
 После выбора раскладки Вам требуется разметить диск вручную либо оставить всё как есть.
 
-![Ctlos step 4](/wiki/images/install/install-ctlos/4.png)
+![Glavos step 4](/wiki/images/install/install-glavos/4.png)
 
 После завершения переразметки диска Вам нужно создать пользователя, выбрать желаемый пароль.
 
-![Ctlos step 5](/wiki/images/install/install-ctlos/5.png)
+![Glavos step 5](/wiki/images/install/install-glavos/5.png)
 
 Проверяем данные, можно вернуться и исправить, если что-то не так. Если всё верно - нажимайте "**Установить**".
 
-![Ctlos step 6](/wiki/images/install/install-ctlos/6.png)
+![Glavos step 6](/wiki/images/install/install-glavos/6.png)
 
 Дождитесь конца установки.
 
-![Ctlos step 7](/wiki/images/install/install-ctlos/7.png)
+![Glavos step 7](/wiki/images/install/install-glavos/7.png)
 
 Готово! Теперь Вы можете перезагрузить Ваше устройство.
 
-![Ctlos step 8](/wiki/images/install/install-ctlos/8.png)
+![Glavos step 8](/wiki/images/install/install-glavos/8.png)
 
 Выбор в меню GRUB.
 
-![Ctlos step 9](/wiki/images/install/install-ctlos/9.png)
+![Glavos step 9](/wiki/images/install/install-glavos/9.png)
 
 Менеджер входа (используется LightDm), в правом верхнем углу можно выбрать сессию, если присутствуют другие Окружения (DE), или Оконные менеджеры (WM). На данном скриншоте XFCE, она единственная и по умолчанию ничего можно не выбирать.
 
-![Ctlos step 10](/wiki/images/install/install-ctlos/10.png)
+![Glavos step 10](/wiki/images/install/install-glavos/10.png)
 
 Вот и все! Отдельная благодарность за скриншоты пользователю **breadandbutter** с nnm-club.me
 
-![Ctlos step 11](/wiki/images/install/install-ctlos/11.png)
+![Glavos step 11](/wiki/images/install/install-glavos/11.png)

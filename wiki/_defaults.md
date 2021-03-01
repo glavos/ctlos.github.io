@@ -21,7 +21,7 @@ edit: true
 1. TOC
 {:toc}
 
-[Github releases](https://github.com/ctlos/ctlosiso/releases){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+[Github releases](https://github.com/glavos/glavosiso/releases){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 
 ![File Browser with Add Files menu open](/wiki/images/overview/file-browser-add-menu.png)
 

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Установка и настройка репозиториев ctlos
+title: Установка и настройка репозиториев glavos
 menus:
   install:
-    title: Репозиторий ctlos
+    title: Репозиторий glavos
     weight: 4
 ---
 
@@ -15,13 +15,13 @@ menus:
 
 ## Добавление ключа 1
 
-> Удалить все упомянания ctlos_repo из `/etc/pacman.conf`.
+> Удалить все упомянания glavos_repo из `/etc/pacman.conf`.
 
 ```bash
 sudo nano /etc/pacman.conf
 
-[ctlos_repo]
-Server = https://github.com/ctlos/$repo/raw/master/$arch
+[glavos_repo]
+Server = https://github.com/glavos/$repo/raw/master/$arch
 ...
 ```
 
@@ -45,8 +45,8 @@ sudo sh strap.sh
 # инициализация gpg
 pacman-key --init
 
-pacman -Sy wget && wget git.io/ctlos.gpg
-pacman-key --add ctlos.gpg
+pacman -Sy wget && wget git.io/glavos.gpg
+pacman-key --add glavos.gpg
 # или с key сервера
 pacman-key --recv-keys 98F76D97B786E6A3
 ```
@@ -86,22 +86,22 @@ reflector --verbose -a1 -f10 -l70 -p https -p http --sort rate --save /etc/pacma
 ```bash
 nano /etc/pacman.conf
 
-[ctlos_repo]
-Server = https://github.com/ctlos/$repo/raw/master/$arch
-Server = https://osdn.net/projects/ctlos/storage/$repo/$arch
+[glavos_repo]
+Server = https://github.com/glavos/$repo/raw/master/$arch
+Server = https://osdn.net/projects/glavos/storage/$repo/$arch
 Server = https://cvc.keybase.pub/$repo
 ```
 
-## Ctlos aur
+## Glavos aur
 
-Можете воспользоваться [Ctlos aur](https://dev.ctlos.ru/ctlos-aur) репозиторием, пакетов не так много, но он содержит последнии версии пакетов.
+Можете воспользоваться [Glavos aur](https://dev.glavos.ru/glavos-aur) репозиторием, пакетов не так много, но он содержит последнии версии пакетов.
 
 ```bash
 nano /etc/pacman.conf
 
-[ctlos-aur]
+[glavos-aur]
 SigLevel = Optional TrustAll
-Server = https://dev.ctlos.ru/ctlos-aur
+Server = https://dev.glavos.ru/glavos-aur
 ```
 
-> Если Вы заметите какие-либо проблемы в репозиториях, сообщите в [Telegram Chat](https://telegram.me/ctlos).
+> Если Вы заметите какие-либо проблемы в репозиториях, сообщите в [Telegram Chat](https://telegram.me/glavos).

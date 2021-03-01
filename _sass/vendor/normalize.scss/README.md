@@ -75,4 +75,4 @@ inherited by `legend`.
 
 ## Acknowledgements
 
-Normalize.scss is a project by [Alex Guerrero](https://github.com/guerrero) based on [normalize.css](http://necolas.github.io/normalize.css) from [Nicolas Gallagher](https://github.com/necolas), co-created with [Jonathan Neal](https://github.com/jonathantneal).
+Normalize.scss is a project by [Stas Guerrero](https://github.com/guerrero) based on [normalize.css](http://necolas.github.io/normalize.css) from [Nicolas Gallagher](https://github.com/necolas), co-created with [Jonathan Neal](https://github.com/jonathantneal).

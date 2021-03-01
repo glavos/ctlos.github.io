@@ -279,7 +279,7 @@ chroot /mnt /bin/zsh
 Назначаем хост.
 
 ```bash
-echo ctlos > /etc/hostname
+echo glavos > /etc/hostname
 ```
 
 Выбор часового пояса.

@@ -1,11 +1,11 @@
-title: Ctlos Linux
-description: Официальный сайт Ctlos Linux
+title: Glavos Linux
+description: Официальный сайт Glavos Linux
 baseurl: "" # /blog
-url: "https://ctlos.github.io"
+url: "https://glavos.github.io"
 lang: ru-RU
 logo: /assets/img/logo.svg
 permalink: /:title/
-disqus_shortname: ctlos
+disqus_shortname: glavos
 
 # Aux links for the upper right navigation
 aux_links:
@@ -16,7 +16,7 @@ aux_links:
   - title: Обновления
     url: /wiki/changelog
   - title: Сообщество
-    url: /wiki/#ресурсы-ctlos
+    url: /wiki/#ресурсы-glavos
     new_tab: true
 
 defaults:
@@ -60,7 +60,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true
 gh_edit_link_text: "Отредактировать эту страницу на GitHub"
-gh_edit_repository: "https://github.com/ctlos/ctlos.github.io"
+gh_edit_repository: "https://github.com/glavos/glavos.github.io"
 gh_edit_branch: "master"
 gh_edit_view_mode: "tree"
 

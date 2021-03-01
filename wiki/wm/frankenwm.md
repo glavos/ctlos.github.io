@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Ctlos Linux FrankenWm
-description: Описание конфигурации Ctlos Linux FrankenWm, горячие клавиши, утилиты.
+title: Glavos Linux FrankenWm
+description: Описание конфигурации Glavos Linux FrankenWm, горячие клавиши, утилиты.
 menus:
   wm:
     title: FrankenWm
@@ -97,4 +97,4 @@ sudo make clean install
 `super+q `             | Закрыть окно.
 `super+shift+q`        | Закрыть frankenwm.
 
-Комментарии приветствуются. Вступай в telegram чат: [t.me/ctlos](https://telegram.me/ctlos).
+Комментарии приветствуются. Вступай в telegram чат: [t.me/glavos](https://telegram.me/glavos).

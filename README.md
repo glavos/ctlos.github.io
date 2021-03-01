@@ -1,6 +1,6 @@
-# Ctlos Linux
+# Glavos Linux
 
-Source [ctlos.github.io](https://ctlos.github.io)
+Source [glavos.github.io](https://glavos.github.io)
 
 Fork [Just the Docs](https://pmarsceill.github.io/just-the-docs/).
 

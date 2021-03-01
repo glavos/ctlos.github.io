@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Ctlos Linux Bspwm
-description: Описание конфигурации Ctlos Linux Bspwm, горячие клавиши, утилиты.
+title: Glavos Linux Bspwm
+description: Описание конфигурации Glavos Linux Bspwm, горячие клавиши, утилиты.
 menus:
   wm:
     title: Bspwm
@@ -184,4 +184,4 @@ tmrun.sh | Tmux с 3 табами. `~/.bin/tmrun.sh`.
 
 Еще скрипты: `~/.bin`.
 
-Комментарии приветствуются. Вступай в telegram чат: [t.me/ctlos](https://telegram.me/ctlos).
+Комментарии приветствуются. Вступай в telegram чат: [t.me/glavos](https://telegram.me/glavos).

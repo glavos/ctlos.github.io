@@ -4,7 +4,7 @@ https://keybase.io/cvc
 
 I hereby claim:
 
-  * I am an admin of https://ctlos.github.io
+  * I am an admin of https://glavos.github.io
   * I am cvc (https://keybase.io/cvc) on keybase.
   * I have a public key ASDhXs0XpGByV1OyL4KxK82XNFtfCz0TzNsKGpU2fx0qcAo
 
@@ -27,7 +27,7 @@ To do so, I am signing this object:
     },
     "service": {
       "entropy": "plIclBQt6u89qMgRDndWfZXm",
-      "hostname": "ctlos.github.io",
+      "hostname": "glavos.github.io",
       "protocol": "https:"
     },
     "type": "web_service_binding",

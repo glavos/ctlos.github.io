@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Релиз Ctlos Linux — Openbox v1.3.0
+title: Релиз Glavos Linux — Openbox v1.3.0
 type: minor
 ---
 
 ![Openbox v1.3.0](/wiki/images/changelog/ob1.3.0.png)
 
-> В скором времени готовится запуск форума, большая просьба ко всем неравнодушным задонатить [любую сумму](https://ctlos.github.io/donat/), все собранные средства пойдут на поддержку и развитие.
+> В скором времени готовится запуск форума, большая просьба ко всем неравнодушным задонатить [любую сумму](https://glavos.github.io/donat/), все собранные средства пойдут на поддержку и развитие.
 
 Пропал человек [Viruall Box](https://vk.com/viruall), который мне очень помогал с раздачами торрентов и тестированием новых iso, если есть у кого желание помочь с этим, милости прошу.
 
@@ -31,4 +31,4 @@ type: minor
 - pamac-aur
 - timeshift
 
-Исходники [релиза](https://github.com/ctlos/ctlosiso/tree/v1.3.0-ob).
+Исходники [релиза](https://github.com/glavos/glavosiso/tree/v1.3.0-ob).

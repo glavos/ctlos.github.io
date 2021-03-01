@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Релиз Ctlos Linux — Openbox v1.2.0
+title: Релиз Glavos Linux — Openbox v1.2.0
 type: major
 ---
 
@@ -14,7 +14,7 @@ type: major
 
 - inxi
 - imagewrater
-- ctlos-welcome
+- glavos-welcome
 - ctl-theme
 
-Исходники [Master ветка](https://github.com/ctlos/ctlosiso/tree/9a04c889e2a53cde8eb800fbbb40571a66178ea4).
+Исходники [Master ветка](https://github.com/glavos/glavosiso/tree/9a04c889e2a53cde8eb800fbbb40571a66178ea4).

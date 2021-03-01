@@ -3,5 +3,5 @@ Disallow: /wiki/admin/
 Disallow: /wiki/ctl/
 Disallow: /wiki/search/
 Disallow: /keybase.txt
-Sitemap: https://ctlos.github.io/sitemap.xml
-Host: ctlos.github.io
+Sitemap: https://glavos.github.io/sitemap.xml
+Host: glavos.github.io

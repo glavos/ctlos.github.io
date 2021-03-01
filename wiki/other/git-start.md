@@ -18,14 +18,14 @@ menus:
 Конфигурация.
 
 ```bash
-git config --global user.name "ctlos"
-git config --global user.email "ctlos@protonmail.com"
+git config --global user.name "glavos"
+git config --global user.email "glavos@protonmail.com"
 ```
 
 Генерация ssh-ключей.
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C "ctlos@protonmail.com"
+ssh-keygen -t rsa -b 4096 -C "glavos@protonmail.com"
 ```
 
 Забрать ключ в `~/.ssh` имя `id_rsa.pub`.
@@ -58,8 +58,8 @@ git commit -m "test"
 Создание репозитория на github.com.
 
 ```bash
-git remote add origin https://github.com/ctlos/ctlosiso
-git remote add origin git@github.com:ctlos/ctlosiso.git
+git remote add origin https://github.com/glavos/glavosiso
+git remote add origin git@github.com:glavos/glavosiso.git
 ```
 
 Отменить регистрацию удаленного репозитария.
@@ -78,19 +78,19 @@ git push --set-upstream origin master
 Клонирование.
 
 ```bash
-git clone https://github.com/ctlos/ctlosiso
+git clone https://github.com/glavos/glavosiso
 ```
 
 Ssh.
 
 ```bash
-git clone git@github.com:ctlos/ctlosiso.git
+git clone git@github.com:glavos/glavosiso.git
 ```
 
 Или ветку.
 
 ```bash
-git clone -b openbox git@github.com:ctlos/ctlosiso.git
+git clone -b openbox git@github.com:glavos/glavosiso.git
 ```
 
 Список репозиториев.
@@ -102,7 +102,7 @@ git remote
 Отправка на github.
 
 ```bash
-git push ctlosiso master
+git push glavosiso master
 ```
 
 Версия проекта tag.
@@ -126,9 +126,9 @@ git push --delete origin v1.0.0
 ```bash
 pacman -S hub
 # черновик
-hub release create -d -a ctlos.iso -m "release test" -t "openbox" tag-test
+hub release create -d -a glavos.iso -m "release test" -t "openbox" tag-test
 # публикация с привязкой к ветки и создание тега
-hub release create -a out/ctlos.iso -m "ctlos openbox 1.3.0" -t "openbox" v1.3.0-ob
+hub release create -a out/glavos.iso -m "glavos openbox 1.3.0" -t "openbox" v1.3.0-ob
 # script ~/.bin/grel.sh
 grel.sh v1.3.0-ob openbox
 ```

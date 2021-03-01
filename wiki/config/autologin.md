@@ -78,24 +78,24 @@ sudo pacman -R gdm
 sudo nano /etc/sddm.conf
 ```
 
-И преведите к такому виду. Замените `creio` на имя вашего пользователя.
+И преведите к такому виду. Замените `fiduchi` на имя вашего пользователя.
 
 ```bash
 [Autologin]
 Relogin=false
-User=creio
+User=fiduchi
 ```
 
 ## Автологин Lightdm
 
-Замените `creio` на имя вашего пользователя.
+Замените `fiduchi` на имя вашего пользователя.
 
 ```bash
 groupadd -r autologin
-gpasswd -a creio autologin
+gpasswd -a fiduchi autologin
 
 groupadd -r nopasswdlogin
-gpasswd -a creio nopasswdlogin
+gpasswd -a fiduchi nopasswdlogin
 ```
 
 Отредактируйте конфиг.
@@ -104,12 +104,12 @@ gpasswd -a creio nopasswdlogin
 nano /etc/lightdm/lightdm.conf
 ```
 
-И приведите к такому виду. Замените creio на имя вашего пользователя.
+И приведите к такому виду. Замените fiduchi на имя вашего пользователя.
 
 ```bash
 pam-service=lightdm
 pam-autologin-service=lightdm-autologin
-autologin-user=creio
+autologin-user=fiduchi
 autologin-user-timeout=0
 session-wrapper=/etc/lightdm/Xsession
 ```

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Ctlos iso
+title: Glavos iso
 menus:
   other:
-    title: Ctlos iso
+    title: Glavos iso
     weight: 1
-post_photo_path: /wiki/images/other/ctlosiso.png
+post_photo_path: /wiki/images/other/glavosiso.png
 ---
 
 [YouTube link](https://www.youtube.com/watch?list=PLwdYMSK64DT6CCheHMbaqlOzpqfk2FTvT&v=XNpAXthDbrI) Старая версия, но многое объясняет.
@@ -20,7 +20,7 @@ post_photo_path: /wiki/images/other/ctlosiso.png
 
 [YouTube link](https://www.youtube.com/watch?list=PLwdYMSK64DT6CCheHMbaqlOzpqfk2FTvT&v=XNpAXthDbrI) Старое видео, но многое объясняет.
 
-- [Github README](https://github.com/ctlos/ctlosiso/blob/master/README.md) - быстрый способ
+- [Github README](https://github.com/glavos/glavosiso/blob/master/README.md) - быстрый способ
 
 ## Глубокое вмешательство
 
@@ -35,15 +35,15 @@ yay -S git archiso mkinitcpio-archiso --noconfirm --needed
 Создание директории и клонирование репозитория.
 
 ```bash
-mkdir ~/ctlos
-cd ~/ctlos
-git clone https://github.com/ctlos/ctlos_repo
+mkdir ~/glavos
+cd ~/glavos
+git clone https://github.com/glavos/glavos_repo
 ```
 
 Или ssh.
 
 ```bash
-git clone git@github.com:ctlos/ctlo_repo.git
+git clone git@github.com:glavos/ctlo_repo.git
 ```
 
 ### Сборка aur пакетов
@@ -53,8 +53,8 @@ git clone git@github.com:ctlos/ctlo_repo.git
 Собираем пакеты в `build`.
 
 ```bash
-mkdir ~/ctlos/ctlos_repo/build
-cd ~/ctlos/ctlos_repo/build
+mkdir ~/glavos/glavos_repo/build
+cd ~/glavos/glavos_repo/build
 wget https://aur.archlinux.org/cgit/aur.git/snapshot/gtk3-mushrooms.tar.gz
 ```
 
@@ -66,11 +66,11 @@ cd gtk3-mushrooms
 makepkg -s
 ```
 
-Копируем собраные пакеты в `~/ctlos/ctlos_repo/x86_64`, инициализируем репозиторий. Пакеты в формате `*.pkg.tar.xz`, или `zst`.
+Копируем собраные пакеты в `~/glavos/glavos_repo/x86_64`, инициализируем репозиторий. Пакеты в формате `*.pkg.tar.xz`, или `zst`.
 
 ```bash
-cd ~/ctlos/ctlos_repo/x86_64
-repo-add ctlos_repo.db.tar.gz *.tar.xz
+cd ~/glavos/glavos_repo/x86_64
+repo-add glavos_repo.db.tar.gz *.tar.xz
 ```
 
 Или.
@@ -82,9 +82,9 @@ repo-add ctlos_repo.db.tar.gz *.tar.xz
 После добавления новых пакетов из aur необходимо переинициализировать репозиторий.(Удалить файлы баз данных), или запустить скрипт `update.sh` он сам все пересоздаст.
 
 ```bash
-repo-add ctlos_repo.db.tar.gz *.tar.xz
+repo-add glavos_repo.db.tar.gz *.tar.xz
 
-repo-add ctlos_repo.db.tar.gz *.pkg.tar.zst
+repo-add glavos_repo.db.tar.gz *.pkg.tar.zst
 ```
 
 Или.
@@ -98,24 +98,24 @@ repo-add ctlos_repo.db.tar.gz *.pkg.tar.zst
 Клонируем репозиторий. Ветка master по умолчанию.
 
 ```bash
-cd ~/ctlos
-git clone --depth=1 https://github.com/ctlos/ctlosiso
+cd ~/glavos
+git clone --depth=1 https://github.com/glavos/glavosiso
 ```
 
-Добавляем пользовательский репозиторий для aur пакетов. В `/ctlos/ctlosiso/pacman.conf`.
+Добавляем пользовательский репозиторий для aur пакетов. В `/glavos/glavosiso/pacman.conf`.
 
 ```bash
-[ctlos_repo]
+[glavos_repo]
 SigLevel = Optional TrustAll
-Server = file:///home/creio/ctlos/ctlos_repo/$arch
+Server = file:///home/fiduchi/glavos/glavos_repo/$arch
 ```
 
-Закоментировать репозиторий ctlos, если нужно.
+Закоментировать репозиторий glavos, если нужно.
 
 ```bash
-#[ctlos_repo]
+#[glavos_repo]
 #SigLevel = Never
-#Server = https://raw.github.com/ctlos/ctlos_repo/dev/repo/$arch
+#Server = https://raw.github.com/glavos/glavos_repo/dev/repo/$arch
 ```
 
 ### Сборка образа
@@ -123,7 +123,7 @@ Server = file:///home/creio/ctlos/ctlos_repo/$arch
 Сделать скрипты исполняемыми.
 
 ```bash
-cd ctlosiso
+cd glavosiso
 chmod +x {autobuild.sh,chroot.sh,mkarchiso}
 ```
 
@@ -135,7 +135,7 @@ chmod +x {autobuild.sh,chroot.sh,mkarchiso}
 sudo ./autobuild.sh xfce_1.7.0
 ```
 
-Готовый образ и хэши создаются в данной директории `~/ctlos/ctlosiso/out`.
+Готовый образ и хэши создаются в данной директории `~/glavos/glavosiso/out`.
 
 ### Пересборка
 

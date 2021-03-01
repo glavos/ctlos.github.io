@@ -12,8 +12,8 @@
   "_location": "/normalize.scss",
   "_nodeVersion": "0.10.32",
   "_npmUser": {
-    "email": "alexguerrero1092@gmail.com",
-    "name": "alexguerrero"
+    "email": "stasguerrero1092@gmail.com",
+    "name": "stasguerrero"
   },
   "_npmVersion": "2.0.2",
   "_phantomChildren": {},
@@ -53,8 +53,8 @@
   "license": "MIT",
   "maintainers": [
     {
-      "name": "alexguerrero",
-      "email": "alexguerrero1092@gmail.com"
+      "name": "stasguerrero",
+      "email": "stasguerrero1092@gmail.com"
     }
   ],
   "name": "normalize.scss",

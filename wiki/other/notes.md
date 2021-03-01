@@ -15,26 +15,26 @@ menus:
 
 ## Загрузка и запись iso
 
-[https://github.com/ctlos/ctlosiso/releases](https://github.com/ctlos/ctlosiso/releases)
+[https://github.com/glavos/glavosiso/releases](https://github.com/glavos/glavosiso/releases)
 
 Прописать полную ссылку к файлу.
 
 ### Wget
 
 ```bash
-sudo wget -O - https://github.com/ctlos/ctlosiso/releases/download/v1.0.0/*.iso > /dev/sdX && sync
+sudo wget -O - https://github.com/glavos/glavosiso/releases/download/v1.0.0/*.iso > /dev/sdX && sync
 ```
 
 ### Curl
 
 ```bash
-sudo curl -L https://github.com/ctlos/ctlosiso/releases/download/v1.0.0/*.iso > /dev/sdX && sync
+sudo curl -L https://github.com/glavos/glavosiso/releases/download/v1.0.0/*.iso > /dev/sdX && sync
 ```
 
 ### Curl и dd
 
 ```bash
-sudo curl -L https://github.com/ctlos/ctlosiso/releases/download/v1.0.0/*.iso | dd bs=4M of=/dev/sdX status=progress && sync
+sudo curl -L https://github.com/glavos/glavosiso/releases/download/v1.0.0/*.iso | dd bs=4M of=/dev/sdX status=progress && sync
 ```
 
 ## Установка без носителя

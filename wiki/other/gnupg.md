@@ -48,7 +48,7 @@ gpg --delete-keys 98F76D97B786E6A3
 Редактировать ключ.
 
 ```bash
-gpg --expert --edit-key ctlos@protonmail.com
+gpg --expert --edit-key glavos@protonmail.com
 ```
 
 Экспорт открытого ключа в текстовом виде.
@@ -114,8 +114,8 @@ gpg --keyserver keys.gnupg.net --refresh-keys
 Пример подписи и проверки подписи.
 
 ```bash
-gpg --detach-sign --no-armor ctlos.iso
-gpg --verify ctlos.iso.sig ctlos.iso
+gpg --detach-sign --no-armor glavos.iso
+gpg --verify glavos.iso.sig glavos.iso
 ```
 
 Зашифровать файл.

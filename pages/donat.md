@@ -7,20 +7,20 @@ comments: false
 edit: false
 ---
 
-Ctlos Linux создаётся и поддерживается на добровольной основе.
+Glavos Linux создаётся и поддерживается на добровольной основе.
 
 > **Вы можете помочь** развитию проекта и сообщества, пожертвовав небольшую сумму денег, чтобы покрыть некоторые расходы, предоставив разработчикам время и свободу для улучшения функций.
 
 Спасибо! Ваша поддержка очень важна.
 
 - [Crypto Coin](https://commerce.coinbase.com/checkout/ef975b9b-2340-442a-9e27-d9fd8f6e6978)
-- [Open Collective](https://opencollective.com/ctlos/donate)
-- [Liberapay](https://liberapay.com/ctlos)
+- [Open Collective](https://opencollective.com/glavos/donate)
+- [Liberapay](https://liberapay.com/glavos)
 - [PayPal](https://www.paypal.com/donate/?hosted_button_id=SDL935XTMD72N)
-- [patreon.com](https://www.patreon.com/ctlos)
-- [Donationalerts](http://www.donationalerts.ru/c/creio)
+- [patreon.com](https://www.patreon.com/glavos)
+- [Donationalerts](http://www.donationalerts.ru/c/fiduchi)
 
-<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9D%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%20Ctlos%20Linux&targets-hint=&default-sum=100&button-text=11&payment-type-choice=on&mobile-payment-type-choice=on&comment=on&hint=%D0%92%D0%B0%D1%88%D0%B5%20%D0%98%D0%BC%D1%8F%2C%20%D0%BD%D0%B8%D0%BA%D0%BD%D0%B5%D0%B9%D0%BC%2C%20%D0%BF%D0%BE%D0%B6%D0%B5%D0%BB%D0%B0%D0%BD%D0%B8%D0%B5%2C%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9(%D0%BD%D0%B5%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%BE%D0%BB%D0%B5).&successURL=https%3A%2F%2Fctlos.github.io%2Fwiki&quickpay=shop&account=410011749909586" width="100%" height="313" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9D%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%20Glavos%20Linux&targets-hint=&default-sum=100&button-text=11&payment-type-choice=on&mobile-payment-type-choice=on&comment=on&hint=%D0%92%D0%B0%D1%88%D0%B5%20%D0%98%D0%BC%D1%8F%2C%20%D0%BD%D0%B8%D0%BA%D0%BD%D0%B5%D0%B9%D0%BC%2C%20%D0%BF%D0%BE%D0%B6%D0%B5%D0%BB%D0%B0%D0%BD%D0%B8%D0%B5%2C%20%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9(%D0%BD%D0%B5%D0%BE%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%BE%D0%BB%D0%B5).&successURL=https%3A%2F%2Fglavos.github.io%2Fwiki&quickpay=shop&account=410011749909586" width="100%" height="313" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
 
 ## Реферальные ссылки
 
